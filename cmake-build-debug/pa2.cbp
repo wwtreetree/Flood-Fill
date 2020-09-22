@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pa2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa2">
+				<Option output="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug/pa2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/."/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/lodepng"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/images"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/originals"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa2/fast">
+				<Option output="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug/pa2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shuwang/Desktop/Computer Science/221/pa2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/."/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/lodepng"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/images"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/originals"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames"/>
+					<Add directory="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/Computer\ Science/221/pa2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/Makefile">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/animation.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/animation.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/borderColorPicker.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/borderColorPicker.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/conwayColorPicker.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/conwayColorPicker.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/RGB_HSL.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/catch.hpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/json.hpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/lodepng/lodepng.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/lodepng/lodepng.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/deque.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/filler.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/filler.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/gridColorPicker.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/gridColorPicker.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/bfsborder.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/bfsconway.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/bfsgrid.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/bfsstripe.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/borderColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/conwayColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/dfsborder.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/dfsconway.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/dfsgrid.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/dfsstripe.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/images/stripeColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/ordering_structure.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/Canada.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/black.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/cloud.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/girl.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/leaf.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/mooncake.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/mtforce.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/originals/patternforce.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/partners.txt">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/queue.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/queue.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsborder10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsconway.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsgrid.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain11.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain12.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain13.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain14.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain15.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain16.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain17.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain18.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain19.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain20.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain21.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain22.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain23.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain24.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain25.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain26.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain27.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain28.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain29.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain30.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain31.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain32.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain33.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain34.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain35.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain36.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain37.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain38.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain39.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain40.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain41.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain42.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsrain43.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe11.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe12.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe13.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe14.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe15.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe16.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe17.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe18.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/bfsstripe19.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/blackpfbfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/blackpfdfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsborder10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsgrid.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain11.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain12.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain13.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain14.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain15.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain16.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain17.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain18.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain19.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain20.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain21.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain22.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain23.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain24.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain25.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain26.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain27.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain28.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain29.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain30.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain31.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain32.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain33.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain34.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain35.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain36.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain37.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain38.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain39.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain40.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain41.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain42.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsrain43.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe00.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe01.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe02.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe03.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe04.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe05.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe06.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe07.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe08.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe09.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe10.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe11.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe12.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe13.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe14.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe15.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe16.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe17.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe18.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/dfsstripe19.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/pfbfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_frames/pfdfsrain.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsborder.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsborder.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsconway.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsconway.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsgrid.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsstripe.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/bfsstripe.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/borderColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/conwayColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsborder copy.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsborder.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsborder.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsconway.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsconway.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsgrid.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsstripe.gif">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/dfsstripe.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_images/stripeColorPickerTest.png">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/soln_testFills.out">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/stack.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/stack.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/stripeColorPicker.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/stripeColorPicker.h">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/testFills.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/testFills.out">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/testStackQueue.cpp">
+			<Option target="pa2"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/Computer Science/221/pa2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

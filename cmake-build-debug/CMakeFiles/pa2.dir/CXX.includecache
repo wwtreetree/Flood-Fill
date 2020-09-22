@@ -1,0 +1,400 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/animation.h
+string
+-
+vector
+-
+cs221util/PNG.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/borderColorPicker.h
+colorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h
+cs221util/PNG.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h
+cs221util/HSLAPixel.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/conwayColorPicker.h
+stdint.h
+-
+map
+-
+utility
+-
+colorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.h
+iostream
+-
+sstream
+-
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h
+string
+-
+vector
+-
+HSLAPixel.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/catch.hpp
+sstream
+-
+algorithm
+-
+string
+-
+vector
+-
+string
+-
+cstddef
+-
+sstream
+-
+iomanip
+-
+limits
+-
+vector
+-
+cstddef
+-
+Foundation/Foundation.h
+-
+tuple
+-
+type_traits
+-
+string
+-
+string
+-
+string
+-
+signal.h
+-
+cstddef
+-
+string
+-
+stdint.h
+-
+string
+-
+vector
+-
+string
+-
+stdlib.h
+-
+string
+-
+vector
+-
+string
+-
+cmath
+-
+limits
+-
+type_traits
+-
+string
+-
+string
+-
+set
+-
+objc/runtime.h
+-
+string
+-
+crtdbg.h
+-
+stdexcept
+-
+string
+-
+vector
+-
+iosfwd
+-
+string
+-
+vector
+-
+streambuf
+-
+streambuf
+-
+ostream
+-
+fstream
+-
+memory
+-
+memory
+-
+vector
+-
+string
+-
+stdexcept
+-
+string
+-
+vector
+-
+sstream
+-
+algorithm
+-
+cctype
+-
+map
+-
+stdexcept
+-
+memory
+-
+fstream
+-
+ctime
+-
+string
+-
+vector
+-
+sstream
+-
+string
+-
+ostream
+-
+map
+-
+limits
+-
+algorithm
+-
+algorithm
+-
+string
+-
+assert.h
+-
+vector
+-
+stdexcept
+-
+AfxWin.h
+-
+windows.h
+-
+signal.h
+-
+set
+-
+string
+-
+fstream
+-
+stdlib.h
+-
+limits
+-
+vector
+-
+set
+-
+sstream
+-
+algorithm
+-
+map
+-
+Foundation/Foundation.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/Foundation/Foundation.h
+map
+-
+sstream
+-
+stdexcept
+-
+cstdio
+-
+iostream
+-
+cerrno
+-
+unistd.h
+-
+vector
+-
+string
+-
+map
+-
+cctype
+-
+sys/time.h
+-
+cstring
+-
+cctype
+-
+assert.h
+-
+stdbool.h
+-
+sys/types.h
+-
+unistd.h
+-
+sys/sysctl.h
+-
+fstream
+-
+string
+-
+cstring
+-
+cfloat
+-
+cstdio
+-
+assert.h
+-
+sstream
+-
+string
+-
+vector
+-
+iomanip
+-
+assert.h
+-
+cfloat
+-
+cstdio
+-
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.cpp
+deque.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h
+vector
+-
+deque.cpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.cpp
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/filler.cpp
+filler.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/filler.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/filler.h
+cs221util/PNG.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h
+stack.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.h
+queue.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.h
+animation.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/animation.h
+conwayColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/conwayColorPicker.h
+borderColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/borderColorPicker.h
+stripeColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/stripeColorPicker.h
+gridColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/gridColorPicker.h
+filler.cpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/filler.cpp
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/gridColorPicker.h
+colorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/ordering_structure.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.cpp
+queue.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.h
+ordering_structure.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/ordering_structure.h
+deque.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h
+queue.cpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.cpp
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.cpp
+stack.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.h
+deque.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h
+ordering_structure.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/ordering_structure.h
+stack.cpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.cpp
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/stripeColorPicker.h
+colorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/colorPicker.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/testFills.cpp
+cs221util/catch.hpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/catch.hpp
+limits.h
+-
+vector
+-
+sys/stat.h
+-
+iostream
+-
+cs221util/PNG.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/PNG.h
+cs221util/HSLAPixel.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/HSLAPixel.h
+filler.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/filler.h
+stripeColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/stripeColorPicker.h
+conwayColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/conwayColorPicker.h
+borderColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/borderColorPicker.h
+gridColorPicker.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/gridColorPicker.h
+
+/Users/shuwang/Desktop/Computer Science/221/pa2/testStackQueue.cpp
+iostream
+-
+cs221util/catch.hpp
+/Users/shuwang/Desktop/Computer Science/221/pa2/cs221util/catch.hpp
+stack.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/stack.h
+queue.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/queue.h
+deque.h
+/Users/shuwang/Desktop/Computer Science/221/pa2/deque.h
+
